@@ -16,5 +16,10 @@ class clsservicios{
         //Los datos que retornara son cadenas o arreglos de cadenas
         return "Bienvenido " . $nom . " [".$usu."] estas usando el servicio web";
      }
+
+     public function calcPiramideHex($lado, $altura) {
+        $volumen = (3 * sqrt(3) / 2) * pow($lado, 2) * $altura;
+        return $volumen;
+    }
 }
 ?>
